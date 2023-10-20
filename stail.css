@@ -1,0 +1,67 @@
+body {
+    min-height: 5000px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    backdrop-filter: blur(4px);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.jumbotron {
+    background-color: #B6FFFA;
+}
+
+#project {
+    background-color: #B6FFFA; 
+}
+
+#contact {
+    background-color: #B6FFFA;
+}
+
+.display-4, .lead {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+.card-text {
+    font-weight: 00;
+}
+
+.anda {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+footer {
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #B6FFFA;
+}
+
+/* Media Query */
+
+/* Laptop */
+@media (max-width: 992px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    html {
+        font-size: 60%;
+    }
+}
